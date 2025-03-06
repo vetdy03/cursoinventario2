@@ -12,15 +12,17 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
 use App\Http\Controllers\ControllerSistema;
-
 Route::get('/', function () {
     return view('welcome');
 });
 
-//metodo get son para ir de un menu a otro
-Route::get('/ejemplo1', [ControllerSistema::class, 'ejemplo1']); //el primero es la ruta y el segndo ejemplo es la funcion, el metodo
-Route::get('/ejemplo2', [ControllerSistema::class, 'ejemplo2']); //el segndo ejemplo es la funcion, el metodo
-Route::get('/categoria', [ControllerSistema::class, 'categoria']); //el segndo ejemplo es la funcion, el metodo
+Route:: get('/ejemplo1', [ControllerSistema::class,'ejemplo1']);
+// el primer ejemplo1 es un la ruta en el controller el segundo emeplo 1 es el nombre del metodo
+Route:: get('/ejemplo11', [ControllerSistema::class,'ejemplo2']);
 
+Route:: get('/categoria', [ControllerSistema::class,'categoria']);
+Route:: post('/guardarNuevoCategoria', [ControllerSistema::class,'guardarNuevoCategoria']);
+
+Route:: get('/producto', [ControllerSistema::class,'producto']);
+// dentro del controllersitema tengo un metodo llamado productos 

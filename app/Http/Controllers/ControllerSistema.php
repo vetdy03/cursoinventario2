@@ -26,4 +26,7 @@ class ControllerSistema extends Controller
         
         echo "Nro. es: ".$sr;
     }
+    public function categoria(){
+        
+    }
 }
