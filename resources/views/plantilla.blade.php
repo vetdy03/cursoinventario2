@@ -13,6 +13,8 @@
     <link href="<?php echo asset('admin')?>/vendors/css/simple-line-icons.min.css" rel="stylesheet">
     <!-- Main styles for this application -->
     <link href="<?php echo asset('admin')?>/vendors/css/style.css" rel="stylesheet">
+
+    <script src="<?php echo asset('admin')?>/vendors/js/jquery.min.js"></script>
 </head>
 
 <body class="app header-fixed sidebar-fixed aside-menu-fixed aside-menu-hidden">
@@ -35,7 +37,7 @@
 
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                    <img src="vendors/img/avatars/6.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
+                    <img src="vendors/img/avatars/6.jpg" class="img-avatar" alt="vetdy03.com">
                     <span class="d-md-down-none">usuario </span>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right">
@@ -52,7 +54,7 @@
                 </div>
             </li>
         </ul>
-    </header>
+</header>
 
     <div class="app-body">
 
@@ -243,14 +245,14 @@
     </footer>
 
     <!-- Bootstrap and necessary plugins -->
-    <script src="vendors/js/jquery.min.js"></script>
-    <script src="vendors/js/popper.min.js"></script>
-    <script src="vendors/js/bootstrap.min.js"></script>
-    <script src="vendors/js/pace.min.js"></script>
+    
+    <script src="<?php echo asset('admin')?>/vendors/js/popper.min.js"></script>
+    <script src="<?php echo asset('admin')?>/vendors/js/bootstrap.min.js"></script>
+    <script src="<?php echo asset('admin')?>/vendors/js/pace.min.js"></script>
     <!-- Plugins and scripts required by all views -->
-    <script src="vendors/js/Chart.min.js"></script>
+    <script src="<?php echo asset('admin')?>/vendors/js/Chart.min.js"></script>
     <!-- GenesisUI main scripts -->
-    <script src="vendors/js/template.js"></script>
+    <script src="<?php echo asset('admin')?>/vendors/js/template.js"></script>
 </body>
 
 </html>
