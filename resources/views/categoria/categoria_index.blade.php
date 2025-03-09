@@ -108,8 +108,9 @@
             </form>
         </div>
         <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times fa-2x"></i> Cerrar</button>
             <button type="button" class="btn btn-success"><i class="fa fa-save fa-2x"></i> Guardar</button>
+
+            <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times fa-2x"></i> Cerrar</button>
             
         </div>
     </div>
