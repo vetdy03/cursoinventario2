@@ -26,7 +26,9 @@ class ControllerSistema extends Controller
         
         echo "Nro. es: ".$sr;
     }
-    public function categoria(){
-        return view('plantilla');
+
+
+    public function categoria(){//la carpeta que se encuetra enRESOURCES/VIEWS
+        return view('categoria.categoria_index');//debemos crear ese archivo categoria index
     }
 }
