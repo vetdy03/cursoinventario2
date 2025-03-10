@@ -20,4 +20,7 @@ Route::get('/', function () {
 });
 
 //metodo get son para ir de un menu a otro
-Route::get('/ejemplo', [ControllerSistema::class, 'ejemplo1']); //el segndo ejemplo es la funcion del metodo
+Route::get('/ejemplo1', [ControllerSistema::class, 'ejemplo1']); //el primero es la ruta y el segndo ejemplo es la funcion, el metodo
+Route::get('/ejemplo2', [ControllerSistema::class, 'ejemplo2']); //el segndo ejemplo es la funcion, el metodo
+Route::get('/categoria', [ControllerSistema::class, 'categoria']); //el segndo ejemplo es la funcion, el metodo
+
