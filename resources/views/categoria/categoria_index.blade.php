@@ -64,10 +64,10 @@
         </div>
     </div>
     <!-- Fin ejemplo de tabla Listado -->
-    </div>
+</div>
     <!--Inicio del modal agregar/actualizar-->
 <div class="modal fade" id="abrirmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display: none;" aria-hidden="true">
-<div class="modal-dialog modal-primary modal-lg" role="document">
+    <div class="modal-dialog modal-primary modal-lg" role="document">
     <div class="modal-content">
         <div class="modal-header">
             <h4 class="modal-title">Agregar categoría</h4>
