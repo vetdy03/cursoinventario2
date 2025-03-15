@@ -31,4 +31,10 @@ class ControllerSistema extends Controller
     public function categoria(){//la carpeta que se encuetra enRESOURCES/VIEWS
         return view('categoria.categoria_index');//debemos crear ese archivo categoria index
     }
+
+
+
+    public function producto(){//la carpeta que se encuetra enRESOURCES/VIEWS
+        return view('producto.producto_index');//debemos crear ese archivo categoria index
+    }
 }
