@@ -12,7 +12,10 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('categorias', function (Blueprint $table) {
-            $table->id();
+            $table->id('id');
+            $table->string('ca_nombre', 100)->nullable();//crenado tablas 
+            $table->string('ca_estado',['ACTIVO', 'INACTIVO', 'ELIMINADO', ])->default('Activo');
+
             $table->timestamps();
         });
     }
