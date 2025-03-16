@@ -3,4 +3,5 @@ modificar la la linea num.: 5 de la siguientes rutas /public/admin/vendors/js/te
 guia esta en la siguiente ruta /imagenesGuias/modificarLinea5.png
 
 dia sabado(antes de ir a planatar cebolla)
+ sabado noche 1:28
  
