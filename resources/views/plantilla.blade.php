@@ -73,7 +73,7 @@
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="/productos"><i class="fa fa-tasks"></i> Productos</a>
+                        <a class="nav-link" href="/producto"><i class="fa fa-tasks"></i> Productos</a>
                     </li>
                       
             
