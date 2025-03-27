@@ -15,11 +15,7 @@ return new class extends Migration
             $table->id('id');
             $table->string('ca_nombre', 100)->nullable();//crenado tablas 
             $table->enum('ca_estado',['ACTIVO', 'INACTIVO', 'ELIMINADO', ])->default('ACTIVO');
-
-            $table->timestamps();
-            
-
-            
+            $table->timestamps();          
         });
     }
 
